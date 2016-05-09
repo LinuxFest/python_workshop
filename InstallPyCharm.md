@@ -4,7 +4,7 @@ We will use Jetbrains [PyCharm](https://www.jetbrains.com/pycharm/) for this wor
 ###Instructions:
 1. Download the latest version from official site [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
 
-2. If you use Windows or Mac, use this instruction to install
+2. If you use Windows or Mac, use this instruction to install [https://www.jetbrains.com/pycharm-edu/quickstart/installation.html](https://www.jetbrains.com/pycharm-edu/quickstart/installation.html)
 
 3. If you use ubuntu, follow the instructions below: 
 
