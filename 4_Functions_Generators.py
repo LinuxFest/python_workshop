@@ -10,16 +10,18 @@ May 2016
 
 def func1(x, y):
     z = x + y
-    print "Sum of %d and %d is %d" % (x, y, z)
+    print ("Sum of %d and %d is %d" % (x, y, z))
 
 
 func1(3, 5)
 
 
+# Modify this function to return a list of strings as defined above
 def list_benefits():
     return "More organized code", "More readable code", "easier code reuse"
 
 
+# Modify this function to concatenate to each benefit - " is a benefit of functions!"
 def build_sentence(benefit):
     return "%s is a benefit functions!" % benefit
 
@@ -27,7 +29,7 @@ def build_sentence(benefit):
 def name_the_benefits_of_functions():
     list_of_benefits = list_benefits()
     for benefit in list_of_benefits:
-        print build_sentence(benefit)
+        print (build_sentence(benefit))
 
 
 name_the_benefits_of_functions()
@@ -38,12 +40,9 @@ from functools import partial
 db1 = partial(func1, 5)
 db1(10)
 
-# lambda notation
-polynomial_func = lambda x: x ** 2 + 2 * x - 5
-print "lambda function result: %d " % polynomial_func(2)
 
-mult3 = filter(lambda x: x % 3 == 0, range(1, 20))
-print mult3
+# lambda notation
+
 
 # -------------------------------------------------------
 
@@ -55,11 +54,11 @@ print mult3
 #    after next call, resume its job.
 def city_generator():
     a = 10
-    print a
+    print (a)
     yield ("Konstanz")
     a += 1
     yield ("Zurich")
-    print a
+    print (a)
     yield ("Schaffhausen")
     yield ("Stuttgart")
 
@@ -69,9 +68,9 @@ cities = city_generator()
 # for city in cities:
 #    print city
 
-print cities.next()
-print cities.next()
-print cities.next()
+print (cities.next())
+print (cities.next())
+print (cities.next())
 
 
 # print cities.next()
@@ -85,11 +84,11 @@ def fib():
 
 
 fib_generator = fib()
-print fib_generator.next()
-print fib_generator.next()
-print fib_generator.next()
-print fib_generator.next()
-print fib_generator.next()
-print fib_generator.next()
-print fib_generator.next()
+print (fib_generator.next())
+print (fib_generator.next())
+print (fib_generator.next())
+print (fib_generator.next())
+print (fib_generator.next())
+print (fib_generator.next())
+print (fib_generator.next())
 # you can see more information in http://www.python-course.eu/generators.php

@@ -18,12 +18,12 @@ class Car:
         self.count += 1
 
     def printInfo(self):
-        print "Car information:\n number: %d \n name: %s \n model: %s \n color: %s" % (
-            self.count, self.name, self.model, self.color)
+        print ("Car information:\n number: %d \n name: %s \n model: %s \n color: %s" % (
+            self.count, self.name, self.model, self.color))
 
 
-print "Class name is " + Car.__name__
-print "Class documentation: " + Car.__doc__ + "\n"
+print ("Class name is " + Car.__name__)
+print ("Class documentation: " + Car.__doc__ + "\n")
 car1 = Car("Peykan", "Javanan", "Gojeyi")
 car1.printInfo()
 
@@ -47,7 +47,7 @@ class MyCar(Car):
         self.company = company
 
     def get_company(self):
-        print " company: " + self.company
+        print (" company: " + self.company)
 
 
 google_car = MyCar("google_car", "auto", "white", "Google")

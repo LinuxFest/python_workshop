@@ -5,9 +5,9 @@ May 2016
 """
 
 # read from keyboard
-print "Enter your string:"
+print ("Enter your string:")
 input_str = raw_input()
-print input_str
+print (input_str)
 
 # write to a files
 sample_file = open("new_file.txt", "w")
@@ -23,5 +23,5 @@ sample_file.close()
 sample_file = open("new_file.txt", "r")
 lines = sample_file.readlines()
 for line in lines:
-    print line
+    print (line)
 sample_file.close()
