@@ -1,3 +1,9 @@
+"""
+8th Linux Festival, Python Workshop
+By Sina Baharlouie, Sajad Azami
+May 2016
+"""
+
 plus = 2 + 3
 minus = 4.5 - 6
 mul = 4.6 * 1.6

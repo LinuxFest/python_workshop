@@ -1,8 +1,14 @@
+#!/usr/bin/python
+
 """
 8th Linux Festival, Python Workshop
 By Sina Baharlouie, Sajad Azami
 May 2016
 """
+___author___ = "Sina Baharlouie, Sajad Azami"
+__email__ = ", sajjadaazami@gmail.com"
+__status__ = "Development"
+__version__ = "1.0.0"
 
 
 # This is a comment

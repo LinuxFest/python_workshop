@@ -1,3 +1,9 @@
+"""
+8th Linux Festival, Python Workshop
+By Sina Baharlouie, Sajad Azami
+May 2016
+"""
+
 x = 10
 y = 2
 print x == 10

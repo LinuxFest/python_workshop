@@ -1,3 +1,9 @@
+"""
+8th Linux Festival, Python Workshop
+By Sina Baharlouie, Sajad Azami
+May 2016
+"""
+
 # read from keyboard
 print "Enter your string:"
 input_str = raw_input()
