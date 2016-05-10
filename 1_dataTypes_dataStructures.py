@@ -5,10 +5,6 @@
 By Sina Baharlouie, Sajad Azami
 May 2016
 """
-___author___ = "Sina Baharlouie, Sajad Azami"
-__email__ = "sinabaharlouei@yahoo.com, sajjadaazami@gmail.com"
-__status__ = "Development"
-__version__ = "1.0.0"
 
 # Single line comments start with a number symbol.
 
