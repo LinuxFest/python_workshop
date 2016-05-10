@@ -1,3 +1,10 @@
+"""
+8th Linux Festival, Python Workshop
+By Sina Baharlouie, Sajad Azami
+May 2016
+"""
+
+
 # Function Definition
 
 
