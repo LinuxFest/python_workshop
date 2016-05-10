@@ -25,6 +25,13 @@ print ("escape\\n character")
 print ("hello world")
 
 # basic data types
+
+# Boolean values
+bool1, bool2 = True, False
+print (type(bool1), bool1)
+print (0 == bool2)
+print (1 < 2 < 3)  # chained comparision
+
 # String and Numbers
 
 integer_var = 2
