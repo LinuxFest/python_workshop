@@ -16,12 +16,10 @@ def func1(x, y):
 func1(3, 5)
 
 
-# Modify this function to return a list of strings as defined above
 def list_benefits():
     return "More organized code", "More readable code", "easier code reuse"
 
 
-# Modify this function to concatenate to each benefit - " is a benefit of functions!"
 def build_sentence(benefit):
     return "%s is a benefit functions!" % benefit
 
@@ -41,7 +39,11 @@ db1 = partial(func1, 5)
 db1(10)
 
 # lambda notation
+polynomial_func = lambda x: x ** 2 + 2 * x - 5
+print "lambda function result: %d " % polynomial_func(2)
 
+mult3 = filter(lambda x: x % 3 == 0, range(1, 20))
+print mult3
 
 # -------------------------------------------------------
 

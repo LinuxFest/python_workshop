@@ -12,7 +12,7 @@ __version__ = "1.0.0"
 
 # Single line comments start with a number symbol.
 
-""" Multiline strings can be written
+""" Multi line strings can be written
     using three "s, and are often used
     as comments
 """
@@ -66,13 +66,13 @@ queue_list.popleft()
 print queue_list
 
 # set
-a = {"Ali", "Akbar", "Asghar"}
+a = {"Ali", "Akbar", "Asghar", "Ali"}
 b = {"Hassan", "Ali", "Hossein"}
 print a.intersection(b)
+#  print a & b
 print a.union(b)
-
-# tuples
-
+print a - b
+print a ^ b
 
 # dictionaries
 students = {"sina": 9131062, "farzan": 9131069}
@@ -86,3 +86,8 @@ for name, std_num in students.iteritems():
 
 del students["sina"]
 print students
+
+# matrix
+matrix_a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print matrix_a
+print zip(*matrix_a)
