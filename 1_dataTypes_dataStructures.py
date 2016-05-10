@@ -13,6 +13,10 @@ May 2016
     as comments
 """
 
+print ('This is an string too')
+print ("line 1\n line2")
+print ("escape\\n character")
+
 ####################################################
 ## 1. Primitive Datatypes and Operators
 ####################################################
@@ -21,6 +25,8 @@ May 2016
 print ("hello world")
 
 # basic data types
+# String and Numbers
+
 integer_var = 2
 float_var = 2.5
 string_var = "SampleString"
@@ -41,11 +47,16 @@ print (name[:-1])  # remove last character
 
 print (name[::-1])  # reverse string
 
-# lists
+# Lists
 integer_list = [1, 3, 5, 7]
 integer_list.append(9)
 integer_list.insert(2, 4)
 print (integer_list)
+
+# Tuple
+sample_tuple = (1, 2, 3)
+# sample_tuple.append????, No because it's immutable
+print (type(sample_tuple), sample_tuple)
 
 # Stack
 stack_list = [1, 2, 3, 4]
@@ -61,7 +72,7 @@ queue_list.append(5)  # insert item to stack
 queue_list.popleft()
 print (queue_list)
 
-# set
+# Set
 a = {"Ali", "Akbar", "Asghar", "Ali"}
 b = {"Hassan", "Ali", "Hossein"}
 print (a.intersection(b))
@@ -70,7 +81,7 @@ print (a.union(b))
 print (a - b)
 print (a ^ b)
 
-# dictionaries
+# Dictionaries
 students = {"sina": 9131062, "farzan": 9131069}
 students["sajjad"] = 9231031
 
