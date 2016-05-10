@@ -1,3 +1,12 @@
+"""
+8th Linux Festival, Python Workshop
+By Sina Baharlouie, Sajad Azami
+May 2016
+"""
+
+
+# This is a comment
+
 # print
 print "hello world"
 
@@ -42,10 +51,13 @@ print queue_list
 
 # dictionaries
 students = {"sina": 9131062, "farzan": 9131069}
-students["sajjad"] = 9231049
+students["sajjad"] = 9231031
 
 for name, std_num in students.iteritems():
-    print "name: %s, std_num: %d" % (name, std_num)
+    print "1.name: %s, std_num: %d" % (name, std_num)
+
+for name, std_num in students.iteritems():
+    print("2.name: {}, std_num: {}".format(name, std_num))
 
 del students["sina"]
 print students
