@@ -1,6 +1,7 @@
 # print
 print "hello world"
 
+# basic data types
 integer_var = 2
 float_var = 2.5
 string_var = "SampleString"
@@ -25,8 +26,8 @@ print integer_list
 
 # Stack
 stack_list = [1, 2, 3, 4]
-integer_list.append(5)  # insert item to stack
-num = integer_list.pop()
+stack_list.append(5)  # insert item to stack
+num = stack_list.pop()
 print num
 
 # Queue
