@@ -22,11 +22,15 @@ float_var = 2.5
 string_var = "SampleString"
 name = "ali"
 age = 20
+c1 = 1 + 2j  # complex numbers
+c2 = 2.5 + 4j
 
 print "This is an integer variable: %d" % integer_var
 print "This is an float variable: %f" % float_var
 print "This is an string variable: %s" % string_var
 print "%s is %d years old." % (name, age)
+print c1 + c2
+print c1 * c2
 
 print string_var[2:9]  # print from second index to ninth index (index begins from 0)
 print name[:-1]  # remove last character
@@ -52,6 +56,12 @@ queue_list = deque([1, 2, 3, 4])
 queue_list.append(5)  # insert item to stack
 queue_list.popleft()
 print queue_list
+
+# set
+a = {"Ali", "Akbar", "Asghar"}
+b = {"Hassan", "Ali", "Hossein"}
+print a.intersection(b)
+print a.union(b)
 
 # tuples
 
