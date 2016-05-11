@@ -47,6 +47,7 @@ print "lambda function result: %d" % lambda_function(10)
 mult7 = filter(lambda x: x % 7 == 0, range(1, 100))
 print mult7
 
+
 # -------------------------------------------------------
 
 # Generators
