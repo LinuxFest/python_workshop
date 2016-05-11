@@ -30,7 +30,7 @@ print ("hello world")
 bool1, bool2 = True, False
 print (type(bool1), bool1)
 print (0 == bool2)
-print (1 < 2 < 3)  # chained comparision
+print (1 < 2 < 3)  # chained comparison
 
 # String and Numbers
 
