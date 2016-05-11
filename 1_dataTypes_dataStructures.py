@@ -91,10 +91,21 @@ print (a ^ b)
 # Dictionaries
 students = {"sina": 9131062, "farzan": 9131069}
 students["sajjad"] = 9231031
+d = dict(
+    one=1, two=2, three=3
+)
 
 for name, std_num in students.iteritems():
     print ("1.name: %s, std_num: %d" % (name, std_num))
 
+for k in sorted(d.keys()):
+    print (k, d[k])
+
+for k in sorted(d.values()):
+    print (k)
+
+# A newer way to format strings is the format method.
+# This method is the preferred way
 for name, std_num in students.iteritems():
     print("2.name: {}, std_num: {}".format(name, std_num))
 
