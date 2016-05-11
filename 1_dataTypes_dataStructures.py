@@ -14,11 +14,11 @@ May 2016
 """
 
 print ('This is an string too')
-print ("line 1\n line2")
+print ("line 1\nline2")
 print ("escape\\n character")
 
 ####################################################
-## 1. Primitive Datatypes and Operators
+## 1. Primitive Data types and Operators
 ####################################################
 
 # print
