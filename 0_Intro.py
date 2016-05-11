@@ -24,5 +24,5 @@ print (id(x))
 x = 2
 print (id(x))
 
-# Most fundemental types in Python are immutable > numbers, strings, tuples
+# Most fundamental types in Python are immutable > numbers, strings, tuples
 # Mutable objects include > lists, dictionaries, other objects depending on implementation
