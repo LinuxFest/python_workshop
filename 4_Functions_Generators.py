@@ -40,9 +40,12 @@ from functools import partial
 db1 = partial(func1, 5)
 db1(10)
 
-
 # lambda notation
+lambda_function = lambda x: x ** 2 + 2 * x - 5
+print "lambda function result: %d" % lambda_function(10)
 
+mult7 = filter(lambda x: x % 7 == 0, range(1, 100))
+print mult7
 
 # -------------------------------------------------------
 
