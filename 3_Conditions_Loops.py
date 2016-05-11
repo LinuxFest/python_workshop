@@ -58,7 +58,7 @@ for i, c in enumerate(sample_string):
     if c == "s":
         print('index is {}'.format(i))
     if c == "t":
-        print ("breaking...")
+        print("breaking...")
         break
 
 # while loop
@@ -68,4 +68,3 @@ while count < 5:
     count += 1
 else:
     print(count, " is not less than 5")
-
