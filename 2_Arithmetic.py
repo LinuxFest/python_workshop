@@ -49,6 +49,7 @@ print (list1)
 # bitwise operation
 def func(num):
     print('{:08b}'.format(num))
+    pass
 
 
 x, y = 0x60, 0xa1
