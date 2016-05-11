@@ -25,3 +25,16 @@ lines = sample_file.readlines()
 for line in lines:
     print (line)
 sample_file.close()
+
+import requests
+import json
+
+# json: get country and city of a street
+print ("Enter the street:")
+street = raw_input()
+google_url = "http://maps.googleapis.com/maps/api/geocode/json?address=" + street
+response = requests.get(google_url)
+json_response = response.text
+decoded_json = json.loads(json_response)
+description = decoded_json["results"][0]["formatted_address"]
+print (description)
