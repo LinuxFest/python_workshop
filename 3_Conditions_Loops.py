@@ -21,6 +21,11 @@ if x == 10 and y == 3:
 elif y == 2 or x == 20:
     print(x - y)
 
+a = 1
+b = 2
+result = 'a is bigger than b' if a > b else 'a is smaller than b'
+print(result)
+
 listA = [1, 2, 3, 4]
 
 if 3 in listA:
@@ -42,6 +47,19 @@ for i in range(100, 10, -5):
 print("Alist:")
 for x in listA:
     print(x)
+
+fh = open('data.txt')
+for i in fh.readlines():
+    print(i, end='')
+
+sample_string = 'sample string'
+for i, c in enumerate(sample_string):
+    print(i, c)
+    if c == "s":
+        print('index is {}'.format(i))
+    if c == "t":
+        print("breaking...")
+        break
 
 # while loop
 count = 0

@@ -44,3 +44,19 @@ print (list1 * 2)
 print (list1[1])
 list1.append(8)
 print (list1)
+
+
+# bitwise operation
+def func(num):
+    print('{:08b}'.format(num))
+
+
+x, y = 0x60, 0xa1
+print (func(x))
+print (func(y))
+print (func(x | y))
+print (func(x & y))
+print (func(x ^ y))  # xor
+print (func(x << 2))  # shift left
+print (func(x + 2))
+
