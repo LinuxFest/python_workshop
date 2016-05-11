@@ -34,6 +34,16 @@ def name_the_benefits_of_functions():
 
 name_the_benefits_of_functions()
 
+
+# multiple arguments
+def multiply_all(*args):
+    result = 1
+    for number in args:
+        result *= number
+    return result
+
+print("Multiply result: %d" % multiply_all(1, 2, 4, 8))
+
 # partial functions
 from functools import partial
 

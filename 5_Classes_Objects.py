@@ -17,6 +17,10 @@ class Car:
         self.color = color
         self.__timer = 0
 
+    @staticmethod
+    def my_static():  # notice! these functions doesn't get self as parameter
+        print "hello"
+
     def tick(self):
         self.__timer += 1
 
@@ -30,6 +34,9 @@ class Car:
     def message_from_class(self):
         print("Hi, I'm parent class")
 
+
+Car.my_static()  # call without creating an instance
+# Car.tick() # error: because it's not a static method
 
 print ("Class name is " + Car.__name__)
 print ("Class documentation: " + Car.__doc__ + "\n")
@@ -88,7 +95,7 @@ class Vector:
     def __eq__(self, other):
         return (self.a == other.a) and (self.b == other.b)
 
-    # try implement __add__ function
+        # try implement __add__ function
 
 
 v1 = Vector(2, 10)
