@@ -26,6 +26,7 @@ for line in lines:
     print (line)
 sample_file.close()
 
+# exercise: Count the number of python_wiki.txt file and print it
 import requests
 import json
 
