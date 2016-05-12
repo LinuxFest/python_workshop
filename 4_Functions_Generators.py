@@ -106,3 +106,6 @@ print (fib_generator.next())
 print (fib_generator.next())
 print (fib_generator.next())
 # you can see more information in http://www.python-course.eu/generators.php
+
+# exercise
+# 1) create a function which computes gcd of two numbers
