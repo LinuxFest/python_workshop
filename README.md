@@ -8,3 +8,7 @@ A Basic Tutorial For Python - [8th Linux Festival](http://linuxfest.ir/) - Pytho
 ```
 git clone https://github.com/sinaBaharlouei/python_workshop.git
 ```
+
+### Contributers
+* Sina Baharlouie: [Github](https://github.com/sinaBaharlouei)
+* Sajad Azami: [Github](https://github.com/SajadAzami)
