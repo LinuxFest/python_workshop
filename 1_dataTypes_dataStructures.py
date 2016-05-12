@@ -116,3 +116,4 @@ print (students)
 matrix_a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print (matrix_a)
 print (zip(*matrix_a))
+print (type(matrix_a))

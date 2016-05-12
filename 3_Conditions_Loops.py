@@ -61,6 +61,12 @@ for i, c in enumerate(sample_string):
         print("breaking...")
         break
 
+# nested loops
+import numpy as np
+
+for x, y in np.ndindex((3, 2)):
+    print(x, y)
+
 # while loop
 count = 0
 while count < 5:
