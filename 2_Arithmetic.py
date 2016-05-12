@@ -53,11 +53,10 @@ def func(num):
 
 
 x, y = 0x60, 0xa1
-print (func(x))
-print (func(y))
-print (func(x | y))
-print (func(x & y))
-print (func(x ^ y))  # xor
-print (func(x << 2))  # shift left
-print (func(x + 2))
-
+func(x)
+func(y)
+func(x | y)
+func(x & y)
+func(x ^ y)  # xor
+func(x << 2)  # shift left
+func(x + 2)

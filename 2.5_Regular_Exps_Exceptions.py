@@ -7,20 +7,20 @@ May 2016
 
 # Exceptions are key method for handling errors in Python
 def main():
-    # try:
-    #     fh = open("xdata.txt")
-    # except:
-    #     print ("could not open file")
-    # else:
-    #     for i in fh:
-    #         print (i)
-    #
-    # try:
-    #     readfile("data.doc")
-    # except IOError as e:
-    #     print (e)
-    # except ValueError as e:
-    #     print (e)
+    try:
+        fh = open("xdata.txt")
+    except:
+        print ("could not open file")
+    else:
+        for i in fh:
+            print (i)
+
+    try:
+        readfile("data.doc")
+    except IOError as e:
+        print (e)
+    except ValueError as e:
+        print (e)
 
     # Regular expressions are good for matching text
     # re a small language
