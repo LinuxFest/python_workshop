@@ -8,7 +8,11 @@ A Basic Tutorial For Python - [8th Linux Festival](http://linuxfest.ir/) - Pytho
 ```
 git clone https://github.com/LinuxFest/python_workshop.git
 ```
-3. Walk through codes and feel free to ask us your questions by the links provided in our profiles.
+3. We recommend using PyCharm as the IDE for Python. You can find the installation steps in [InstallPyCharm.md](https://github.com/LinuxFest/python_workshop/blob/master/InstallPyCharm.md)
+
+4. You can also install MySQL using [InstallMySql.md](https://github.com/LinuxFest/python_workshop/blob/master/InstallMySql.md)
+ 
+5. Walk through codes and feel free to ask us your questions by the links provided in our profiles.
 
 ## Useful Links
 You can see useful links in [Useful Links](https://github.com/LinuxFest/python_workshop/blob/master/UsefulLinks.md)
